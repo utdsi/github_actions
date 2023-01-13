@@ -1,8 +1,6 @@
-on:push
-
+on : push
 jobs:
      first-job:
      runs-on : windows-latest
-
-     steps:
+    steps:
      - run : node --version
